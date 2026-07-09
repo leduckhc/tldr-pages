@@ -1,0 +1,12 @@
+{
+  "name": "tldr-pages-personal",
+  "description": "My personal tldr pages",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint pages/**/*.md && tldr-lint ./pages"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.49.0",
+    "tldr-lint": "^0.0.22"
+  }
+}
